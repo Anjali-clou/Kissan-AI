@@ -21,7 +21,4 @@ services:
       - key: SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL
         value: "True"
     healthCheckPath: /api/health
-    disk:
-      name: smartcrop-data
-      mountPath: /opt/render/project/src/latest_model
-      sizeGB: 1
+   
